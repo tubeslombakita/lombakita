@@ -29,16 +29,16 @@
       <ul class="navbar-nav"> 
              <!-- <li><button>test </button></li> &emsp; -->
              
-        <li> <a class="navbar-brand nav-link" href="#">LOMBAKITA.COM</a> </li> 
+        <li><img src="<?php echo base_url();?>assets/img/logo.png" width="40px"> <a class="navbar-brand nav-link" href="<?php echo site_url('c_home/index') ?>">LOMBAKITA.COM</a> </li> 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Kategori
             </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Pelajar</a>
-                    <a class="dropdown-item" href="#">Mahasiswa</a>
-                    <a class="dropdown-item" href="#">Umum</a>
-                    <a class="dropdown-item" href="#">Lainnya</a>
+                    <a class="dropdown-item" href="<?php echo site_url('c_home/view_pelajar') ?>">Pelajar</a>
+                    <a class="dropdown-item" href="<?php echo site_url('c_home/view_mahasiswa') ?>">Mahasiswa</a>
+                    <a class="dropdown-item" href="<?php echo site_url('c_home/view_umum') ?>">Umum</a>
+                    <a class="dropdown-item" href="<?php echo site_url('c_home/view_lainnya') ?>">Lainnya</a>
                 </div>
         </li>
         <li class="nav-item">

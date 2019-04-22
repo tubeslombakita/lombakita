@@ -20,23 +20,6 @@ class c_home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('v_home');
-	}
-
-	public function view_pelajar()
-	{
 		$this->load->view('v_pelajar');
-	}
-	public function view_mahasiswa()
-	{
-		$this->load->view('v_mahasiswa');
-	}
-	public function view_umum()
-	{
-		$this->load->view('v_umum');
-	}
-	public function view_lainnya()
-	{
-		$this->load->view('v_lainnya');
 	}
 }

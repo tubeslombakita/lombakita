@@ -119,3 +119,8 @@ body {
   .sidebar {padding-top: 100px;}
   .sidebar a {font-size: 18px;}
 }
+
+.judul{
+    background-image: url(../img/cover.jpg);
+
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title></title>
+    <title>LOMBA KITA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -15,12 +15,10 @@
     <!-- Custom styles -->
     <link href="<?php echo base_url();?>assets/css/modern-business.css" rel="stylesheet">
 
-    <!-- CSS NAVBAR -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/navbar.css" />
 
-    <!-- ICON -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+ 
+
+
 
   </head>
 
@@ -45,21 +43,21 @@
   		</ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/first.jpg" alt="First slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/first.jpg" alt="First slide">
       <div class="carousel-caption d-none d-sm-block">
         <h3>Posting Perlombaan</h3>
         <p><div class="text_to_html"><p>Organizer dapat mendaftarkan perlombaan di situs ini dan sekaligus melakukan manajemen pada platform lombakita.</p></div></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/second.jpg" alt="Second slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/second.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-sm-block">
         <h3>Ikuti Perlombaan</h3>
         <p><div class="text_to_html"><p>Mengikuti berbagai macam perlombaan</p></div></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/third.png" alt="Third slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/third.png" alt="Third slide">
       <div class="carousel-caption d-none d-sm-block">
         <h3>Manajemen Perlombaan</h3>
         <p><div class="text_to_html"><p>Permudah manajemen perlombaan anda</p></div></p>
@@ -152,23 +150,23 @@
         <div class="content" style="margin-left: 170px"><div class="subcategories d-flex flex-wrap">
             <div class="category loaded col-md-3 box-class" data-categoryid="2" data-depth="1" data-showcourses="5" data-type="0">
                 <div class="cat-icon">
-                    <a href="#"><img src="assets/img/circle.png" width="66px" height="66px"></br>
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/img/circle.png" width="66px" height="66px"></br>
                         <div>
                          	<div class="info-enhanced"><span class="class-category">Pelajar</span>  <span class="numberofcourses" title="Number of Competitions">(3)</span></div></div></a></div></div>
 
             <div class="category loaded col-md-3 box-class" data-categoryid="3" data-depth="1" data-showcourses="5" data-type="0">
             	<div class="cat-icon">
-            		<a href="#"> <img src="assets/img/circle.png" width="66px" height="66px"></br>
+            		<a href="#"> <img src="<?php echo base_url(); ?>assets/img/circle.png" width="66px" height="66px"></br>
                         <div>
                         	<div class="info-enhanced"><span class="class-category" style="margin-left: -20px">Mahasiswa</span>  
                             		<span class="numberofcourses" title="Number of Competitions">(10)</span></div></div></a></div></div>
             <div class="category loaded col-md-3 box-class" data-categoryid="4" data-depth="1" data-showcourses="5" data-type="0">
                 <div class="cat-icon">
-                	<a href="#"><img src="assets/img/circle.png" width="66px" height="66px"></br>
+                	<a href="#"><img src="<?php echo base_url(); ?>assets/img/circle.png" width="66px" height="66px"></br>
                 		<div>
                 			<div class="info-enhanced"><span class="class-category">Umum</span>  <span class="numberofcourses" title="Number of Competitions">(6)</span></div></div></a></div></div>
             <div class="category loaded col-md-3 box-class" data-categoryid="1" data-depth="1" data-showcourses="5" data-type="0" >
-                <div class="cat-icon"><a href="#"><img src="assets/img/circle.png" width="66px" height="66px"></br>
+                <div class="cat-icon"><a href="#"><img src="<?php echo base_url(); ?>assets/img/circle.png" width="66px" height="66px"></br>
                 	<div>
                 		<div class="info-enhanced"><span class="class-category">Lainnya</span>  <span class="numberofcourses" title="Number of Competitions">(1)</span></div></div></a></div></div>
         </div></div>
@@ -185,7 +183,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="Electronics And Informatics Competition" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"><img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"><img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -197,7 +195,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=2">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -208,7 +206,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="iStudy: STAN Try Out Online 2018" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -220,7 +218,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=2">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -231,7 +229,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="ELECTRICAL COMPETITION 2017" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover3.jpg" height="300px" width="400px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover3.jpg" height="300px" width="400px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -243,18 +241,19 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=2">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
                         </div>
-                        </div></div> </div><div class="container-fluid"> <div class="row">
+                        </div></div> </div>
+                        <div class="container-fluid"> <div class="row">
                         <div class="col-md-4"><div class="coursevisible">
                             <div class="class-box">
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="UNY- NATIONAL INNOVATION AND CREATION OF TECHNOLOGY" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -266,7 +265,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -277,7 +276,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="UNITY#7 2019 - Network Computer Competition" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -289,7 +288,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -300,7 +299,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="UNITY#7 2019 - Software Development Competition" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -312,7 +311,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -323,7 +322,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="INFINITE Selection 2019" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -335,7 +334,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
@@ -346,7 +345,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="LombaKita Mini Competion 2018" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover.jpg" height="300px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -358,7 +357,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>
@@ -369,7 +368,7 @@
                                 
                                     <a data-tooltip="tooltip" data-placement= "top" title="CTF INFINITE UNY" href="#">
                                     <div class="courseimagecontainer">
-                                    <div class="course-image-view"> <img src="assets/img/cover2.jpg" height="300px" width="400px">
+                                    <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover2.jpg" height="300px" width="400px">
                                     </div>
                                     <div class="course-overlay">
                                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -381,7 +380,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="https://app.lombakita.com/course/index.php?categoryid=3">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
                                     
                                     </div>
                                 </div>
