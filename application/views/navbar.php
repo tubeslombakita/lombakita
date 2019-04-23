@@ -66,7 +66,7 @@
                 </li>
                 <!-- user_menu -->
                 <li class="nav-item d-flex align-items-center">
-                    <div><span >You are not logged in. (<a href="#">Log in</a>)</span></div>
+                    <div><span >You are not logged in. (<a href="<?php echo site_url('c_home/view_login') ?>">Log in</a>)</span></div>
                 </li>
             </ul>
       <!-- <ul class="navbar-nav navbar-right" >

@@ -39,4 +39,8 @@ class c_home extends CI_Controller {
 	{
 		$this->load->view('v_lainnya');
 	}
+	public function view_login()
+	{
+		$this->load->view('v_login');
+	}
 }
