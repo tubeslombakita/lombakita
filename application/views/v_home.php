@@ -185,9 +185,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"><img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -195,7 +193,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a></div>
                                     
                                     </div>
                                 </div>
@@ -208,9 +206,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -218,7 +214,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a></div>
                                     
                                     </div>
                                 </div>
@@ -231,9 +227,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover3.jpg" height="300px" width="400px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -241,7 +235,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Pelajar</a></div>
                                     
                                     </div>
                                 </div>
@@ -255,9 +249,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -265,7 +257,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>
@@ -278,9 +270,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -288,7 +278,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>
@@ -301,9 +291,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -311,7 +299,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>
@@ -324,9 +312,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -334,7 +320,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>
@@ -347,9 +333,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover.jpg" height="300px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -370,9 +354,7 @@
                                     <div class="courseimagecontainer">
                                     <div class="course-image-view"> <img src="<?php echo base_url(); ?>assets/img/cover2.jpg" height="300px" width="400px">
                                     </div>
-                                    <div class="course-overlay">
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                    </div>
+                                    
                                     
                                     </div>
                                     <div class="course-title">
@@ -380,7 +362,7 @@
                                     </div>
                                     </a>
                                     <div class="course-summary">
-                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Self enrolment" aria-label="Self enrolment"></i></div></div>
+                                    <div class="coursecat">Category: <a class="" href="#">Mahasiswa</a></div>
                                     
                                     </div>
                                 </div>

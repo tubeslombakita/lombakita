@@ -43,4 +43,13 @@ class c_home extends CI_Controller {
 	{
 		$this->load->view('v_login');
 	}
+	public function view_msg()
+	{
+		$this->load->view('v_messages');
+	}
+	public function view_dashboard()
+	{
+		$this->load->view('v_dashboard');
+	}
+
 }

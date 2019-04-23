@@ -23,9 +23,9 @@
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-7">
-        <form action="#">
-          <input type="text" id="fname" name="firstname" placeholder="Username/Email">
-          <input type="password" id="lname" name="lastname" placeholder="Password">
+        <form action="<?php echo base_url('index.php/c_login/login'); ?>" method="POST">
+          <input type="text"  name="username" placeholder="Username/Email">
+          <input type="password" name="password" placeholder="Password">
 
           </br>
           <input type="checkbox" value="Remember"> Remember Username
